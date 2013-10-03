@@ -1,5 +1,10 @@
 test:
-	/usr/local/bin/mocha \
+	./node_modules/.bin/mocha \
 		--reporter spec
 
-.PHONY: test
+test-w:
+	./node_modules/.bin/mocha \
+		--reporter spec \
+		--watch
+
+.PHONY: test test-w
