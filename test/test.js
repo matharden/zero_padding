@@ -4,9 +4,14 @@ var
 
 describe('Zero padding', function(){
   var result = zero_padding;
-  it('should be a function');
+  it('should be a function', function(){
+    expect(zero_padding).to.be.a('function');
+  });
   it('should accept one argument');
-  it('should return a string');
+  it('should return a string', function(){
+    var result = zero_padding(1);
+    expect(result).to.be.a('string');
+  });
 
   describe('1 digit numbers', function(){
     var result = zero_padding(1);
