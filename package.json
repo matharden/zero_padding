@@ -6,13 +6,12 @@
   "scripts": {
     "test": "make test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "engines": {
     "node": ">=0.8"
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "chai": "~1.8.0"
   }
 }
