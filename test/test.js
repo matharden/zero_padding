@@ -3,7 +3,7 @@ var
   zero_padding = require('../assets/zero_padding').zero_padding;
 
 describe('Zero padding', function(){
-  it('should be an function');
+  it('should be a function');
   it('should accept one argument');
   it('should return a string');
 
