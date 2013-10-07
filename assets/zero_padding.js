@@ -3,6 +3,7 @@ var zero_padding = function (num) {
 };
 
 // add the object to the browser window or node environment
-root = exports ? exports : window; 
+var exports = exports || {};
+var root = exports ? exports : window; 
 // assign the object to the root
 root.zero_padding = zero_padding;
